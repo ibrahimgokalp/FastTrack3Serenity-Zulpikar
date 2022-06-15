@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ff04c4-4008-41a3-a10d-0e488aef3f5f" name="Changes" comment="">
+    <list default="true" id="26ff04c4-4008-41a3-a10d-0e488aef3f5f" name="Changes" comment="pom updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FastTrack3Serenity/SpartanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastTrack3Serenity/SpartanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +46,29 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\FastTrack3Serenity" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="SpartanTest.getAllSpartans" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastTrack3Serenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FastTrack3Serenity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FastTrack3Serenity" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack3Serenity.SpartanTest" />
+      <option name="METHOD_NAME" value="getAllSpartans" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpartanTest.getAllSpartans" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,8 +77,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655329410722</updated>
-      <workItem from="1655329412172" duration="997000" />
+      <workItem from="1655329412172" duration="1662000" />
     </task>
+    <task id="LOCAL-00001" summary="pom updated">
+      <created>1655331569364</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655331569364</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pom updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="pom updated" />
   </component>
 </project>

@@ -1,5 +1,14 @@
 package FastTrack3Serenity;
 
+import com.gargoylesoftware.htmlunit.javascript.host.*;
+//import io.restassured.*;
+import io.restassured.http.*;
+import io.restassured.response.*;
+import net.serenitybdd.junit5.*;
+import net.serenitybdd.rest.*;
+import org.junit.jupiter.api.*;
+
+@SerenityTest
 public class SpartanTest {
 
 
@@ -10,4 +19,13 @@ public class SpartanTest {
     // use rest given first, then serenity given
     // run from test method, then run from maven or terminal, see different
 
+
+    @Test
+    public void getAllSpartans(){
+
+        Response response = SerenityRest.given().accept(ContentType.JSON)
+                .when().get("http://44.201.135.133:8000/api/spartans");
+
+        System.out.println(response.statusCode());
+    }
 }
