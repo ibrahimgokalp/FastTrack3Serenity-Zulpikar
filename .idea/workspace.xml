@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26ff04c4-4008-41a3-a10d-0e488aef3f5f" name="Changes" comment="test 2 is added">
+    <list default="true" id="26ff04c4-4008-41a3-a10d-0e488aef3f5f" name="Changes" comment="mock test is added">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FastTrack3Serenity/SpartanPostTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FastTrack3Serenity/SpartanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FastTrack3Serenity/SpartanTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,23 @@
       <recent name="C:\Users\Zulpikar\IdeaProjects\FastTrack3Serenity" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SpartanPostTest.addSpartan">
+    <configuration name="SpartanPostTest.addSpartan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FastTrack3Serenity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FastTrack3Serenity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FastTrack3Serenity" />
+      <option name="MAIN_CLASS_NAME" value="FastTrack3Serenity.SpartanPostTest" />
+      <option name="METHOD_NAME" value="addSpartan" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpartanTest.getAllSpartans" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FastTrack3Serenity" />
       <extension name="coverage">
@@ -69,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpartanPostTest.addSpartan" />
         <item itemvalue="JUnit.SpartanTest.getAllSpartans" />
       </list>
     </recent_temporary>
@@ -81,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655329410722</updated>
-      <workItem from="1655329412172" duration="3894000" />
+      <workItem from="1655329412172" duration="5002000" />
     </task>
     <task id="LOCAL-00001" summary="pom updated">
       <created>1655331569364</created>
@@ -104,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655333165397</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mock test is added">
+      <created>1655334804820</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655334804820</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +149,7 @@
     <MESSAGE value="pom updated" />
     <MESSAGE value="first serenity test and report is generated" />
     <MESSAGE value="test 2 is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2 is added" />
+    <MESSAGE value="mock test is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="mock test is added" />
   </component>
 </project>
