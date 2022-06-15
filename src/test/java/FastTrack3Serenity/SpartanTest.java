@@ -28,4 +28,13 @@ public class SpartanTest {
 
         System.out.println(response.statusCode());
     }
+
+    @Test
+    public void getOneSpartan(){
+        Response response = SerenityRest.given().accept(ContentType.JSON)
+                .pathParam("id",107)
+                .when().get("http://44.201.135.133:8000/api/spartans/{id}");
+
+        Assertions.assertEquals(response.statusCode(),200);
+    }
 }
