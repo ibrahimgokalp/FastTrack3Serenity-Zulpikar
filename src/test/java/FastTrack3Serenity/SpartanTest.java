@@ -7,6 +7,9 @@ import io.restassured.response.*;
 import net.serenitybdd.junit5.*;
 import net.serenitybdd.rest.*;
 import org.junit.jupiter.api.*;
+import static net.serenitybdd.rest.SerenityRest.lastResponse;
+import static org.hamcrest.Matchers.is;
+
 
 @SerenityTest
 public class SpartanTest {
@@ -31,10 +34,25 @@ public class SpartanTest {
 
     @Test
     public void getOneSpartan(){
-        Response response = SerenityRest.given().accept(ContentType.JSON)
+        SerenityRest.given().accept(ContentType.JSON)
                 .pathParam("id",107)
-                .when().get("http://44.201.135.133:8000/api/spartans/{id}");
+                .when().get("http://44.201.135.133:8000/api/spartans/{id}")
+                .then().statusCode(200)
+                .and().contentType(ContentType.JSON);
 
-        Assertions.assertEquals(response.statusCode(),200);
+        System.out.println(lastResponse().statusCode());
+        Ensure.that("Status code is 200", validatableResponse -> validatableResponse.statusCode(200));
+        Ensure.that("Content Type is Json", validatableResponse -> validatableResponse.contentType(ContentType.JSON));
+        Ensure.that("Id is 107",validatableResponse -> validatableResponse.body("id",is(107)));
+
+    }
+
+    @Test
+    public void mockTest(){
+        SerenityRest.given().accept(ContentType.JSON)
+                .when().get("https://355471c9-62ea-4013-abdc-b5a766d60361.mock.pstmn.io/students")
+                .then().statusCode(200);
+
+        Ensure.that("Mock status code is 200", validatableResponse -> validatableResponse.statusCode(200));
     }
 }
